@@ -14,6 +14,11 @@ BOT_NAME = 'tzscrape'
 SPIDER_MODULES = ['tzscrape.spiders']
 NEWSPIDER_MODULE = 'tzscrape.spiders'
 
+FEED_URI = #'s3://MYBUCKET/feeds/%(name)s/%(time)s.json'
+FEED_FORMAT = 'json'
+AWS_ACCESS_KEY_ID = #[access key]
+AWS_SECRET_ACCESS_KEY = #[secret key]
+
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'tzscrape (+http://www.yourdomain.com)'
