@@ -10,7 +10,7 @@ A little scraper for your bongo flava: scrape the front page of major Tanzanian 
 - [ ] Daily news
 
 **Swahili**
-- [ ] Mwananchi
+- [x] Mwananchi
 - [ ] Nipashe
 - [ ] Habarileo
 
