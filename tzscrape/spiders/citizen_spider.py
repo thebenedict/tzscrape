@@ -24,7 +24,7 @@ class CitizenSpider(scrapy.Spider):
         item['body'] = response.xpath('//div[@itemprop="articleBody"]/div/p//text()').extract()
 
         if not item['body']:
-            yield []
+            yield None
         else :
             item['url'] = response.url
             item['publication'] = 'citizen'

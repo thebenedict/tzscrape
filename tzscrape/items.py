@@ -17,3 +17,12 @@ class MwananchiItem(scrapy.Item):
   byline = scrapy.Field()
   body = scrapy.Field()
   url = scrapy.Field()
+
+class DailyNewsItem(scrapy.Item):
+  publication = scrapy.Field()
+  title = scrapy.Field()
+  description = scrapy.Field()
+  scraped_at = scrapy.Field()
+  byline = scrapy.Field()
+  body = scrapy.Field()
+  url = scrapy.Field()
