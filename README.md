@@ -7,10 +7,10 @@ A little scraper for your bongo flava: scrape the front page of major Tanzanian 
 **English**
 - [x] Citizen
 - [ ] Guardian
-- [ ] Daily news
+- [x] Daily news
 
 **Swahili**
 - [x] Mwananchi
 - [ ] Nipashe
-- [ ] Habarileo
+- [x] Habarileo
 

@@ -26,3 +26,11 @@ class DailyNewsItem(scrapy.Item):
   byline = scrapy.Field()
   body = scrapy.Field()
   url = scrapy.Field()
+
+class HabarileoItem(scrapy.Item):
+  publication = scrapy.Field()
+  title = scrapy.Field()
+  scraped_at = scrapy.Field()
+  byline = scrapy.Field()
+  body = scrapy.Field()
+  url = scrapy.Field()
