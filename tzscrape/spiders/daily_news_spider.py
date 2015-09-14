@@ -8,7 +8,6 @@ class DailyNewsSpider(scrapy.Spider):
     start_urls = ['http://dailynews.co.tz/']
 
     def parse(self, response):
-        # headlines
         for href in response.xpath('//*[@class="article-title"]/*/*[@itemprop="url"]/@href'):
             url = response.urljoin(href.extract())
             yield scrapy.Request(url, callback=self.parse_article)

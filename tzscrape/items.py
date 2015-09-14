@@ -34,3 +34,19 @@ class HabarileoItem(scrapy.Item):
   byline = scrapy.Field()
   body = scrapy.Field()
   url = scrapy.Field()
+
+class GuardianItem(scrapy.Item):
+  publication = scrapy.Field()
+  title = scrapy.Field()
+  scraped_at = scrapy.Field()
+  byline = scrapy.Field()
+  body = scrapy.Field()
+  url = scrapy.Field()
+
+class NipasheItem(scrapy.Item):
+  publication = scrapy.Field()
+  title = scrapy.Field()
+  scraped_at = scrapy.Field()
+  byline = scrapy.Field()
+  body = scrapy.Field()
+  url = scrapy.Field()

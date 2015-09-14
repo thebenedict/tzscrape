@@ -6,7 +6,7 @@ A little scraper for your bongo flava: scrape the front page of major Tanzanian 
 
 **English**
 - [x] Citizen
-- [ ] Guardian
+- [x] Guardian
 - [x] Daily news
 
 **Swahili**
