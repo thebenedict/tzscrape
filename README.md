@@ -11,6 +11,6 @@ A little scraper for your bongo flava: scrape the front page of major Tanzanian 
 
 **Swahili**
 - [x] Mwananchi
-- [ ] Nipashe
+- [x] Nipashe
 - [x] Habarileo
 

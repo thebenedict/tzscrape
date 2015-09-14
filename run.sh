@@ -6,3 +6,4 @@ scrapy crawl mwananchi
 scrapy crawl daily_news
 scrapy crawl habarileo
 scrapy crawl guardian
+scrapy crawl nipashe
