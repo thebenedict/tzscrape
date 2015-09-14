@@ -5,7 +5,7 @@ from tzscrape.items import GuardianItem
 class GuardianSpider(scrapy.Spider):
     name = 'guardian'
     allowed_domains = ['ippmedia.com']
-    start_urls = ['http://www.ippmedia.com/']
+    start_urls = ['http://www.ippmedia.com/?m=54&lang=EN']
 
     def parse(self, response):
         # lists of artcles
